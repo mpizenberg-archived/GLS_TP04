@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet/1.0" name="Saisons">
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.8" linksToPredecessor="//@petriNetElements.15" name="Hiver" marking="1"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.10" linksToPredecessor="//@petriNetElements.9" name="Printemps"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.12" linksToPredecessor="//@petriNetElements.11" name="Ete"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.14" linksToPredecessor="//@petriNetElements.13" name="Automne"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.9" linksToPredecessor="//@petriNetElements.8" name="hiverToPrintemps"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.11" linksToPredecessor="//@petriNetElements.10" name="printempsToEte"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.13" linksToPredecessor="//@petriNetElements.12" name="eteToAutomne"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.15" linksToPredecessor="//@petriNetElements.14" name="automneToHiver"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.0" successor="//@petriNetElements.4" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.4" successor="//@petriNetElements.1" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.1" successor="//@petriNetElements.5" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.5" successor="//@petriNetElements.2" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.2" successor="//@petriNetElements.6" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.6" successor="//@petriNetElements.3" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.3" successor="//@petriNetElements.7" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.7" successor="//@petriNetElements.0" multiplicity="1"/>
+</petrinet:PetriNet>

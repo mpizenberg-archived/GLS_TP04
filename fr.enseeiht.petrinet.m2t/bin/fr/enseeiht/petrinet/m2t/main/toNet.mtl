@@ -1,0 +1,11 @@
+[comment encoding = UTF-8 /]
+[module toNet('http://petrinet/1.0')]
+
+[comment Generation de la syntaxe .net à partir d'un modèle de réseau de pétri /]
+
+[template public toNet(petriNet : PetriNet)]
+[comment @main/]
+[file (petriNet.name.concat('.net'), false, 'UTF-8')]
+
+[/file]
+[/template]
