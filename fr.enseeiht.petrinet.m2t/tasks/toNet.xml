@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="toNet" name="fr.enseeiht.petrinet.m2t">
-    <property name="ECLIPSE_HOME" value="../../../../../../../../../mnt/n7fs/ens/tp_dieumegard/eclipse_modeling_indigo"/>
+    <property name="ECLIPSE_HOME" value="../../../../../../../PROGRAM_FILES/eclipse_modeling_indigo"/>
     <property name="ECLIPSE_WORKSPACE" value="../../.."/>
 
     <!-- The classpath with only the dependencies used by the project -->

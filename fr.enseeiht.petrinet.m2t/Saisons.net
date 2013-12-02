@@ -1,1 +1,4 @@
-
+	tr hiverToPrintemps Hiver -> Printemps
+	tr printempsToEte Printemps -> Ete
+	tr eteToAutomne Ete -> Automne
+	tr automneToHiver Automne -> Hiver
