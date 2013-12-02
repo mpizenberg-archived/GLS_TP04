@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet/1.0" name="example">
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.10" linksToPredecessor="//@petriNetElements.23" name="p1" marking="1"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.11" linksToPredecessor="//@petriNetElements.20 //@petriNetElements.21" name="p2" marking="2"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.12 //@petriNetElements.13" linksToPredecessor="//@petriNetElements.17 //@petriNetElements.22" name="p3"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.14" linksToPredecessor="//@petriNetElements.18" name="p4"/>
+  <petriNetElements xsi:type="petrinet:Place" linksToSuccessor="//@petriNetElements.15 //@petriNetElements.16" linksToPredecessor="//@petriNetElements.19" name="p5"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.17 //@petriNetElements.18 //@petriNetElements.19" linksToPredecessor="//@petriNetElements.10 //@petriNetElements.11" name="t1"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.20" linksToPredecessor="//@petriNetElements.14" name="t2"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.21" linksToPredecessor="//@petriNetElements.15" name="t3"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.22" linksToPredecessor="//@petriNetElements.12 //@petriNetElements.16" name="t4"/>
+  <petriNetElements xsi:type="petrinet:Transition" linksToSuccessor="//@petriNetElements.23" linksToPredecessor="//@petriNetElements.13" name="t5"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.0" successor="//@petriNetElements.5" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.1" successor="//@petriNetElements.5" multiplicity="2"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.2" successor="//@petriNetElements.8" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.2" successor="//@petriNetElements.9" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.3" successor="//@petriNetElements.6" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.4" successor="//@petriNetElements.7" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.4" successor="//@petriNetElements.8" multiplicity="1" readOnly="true"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.5" successor="//@petriNetElements.2" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.5" successor="//@petriNetElements.3" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.5" successor="//@petriNetElements.4" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.6" successor="//@petriNetElements.1" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.7" successor="//@petriNetElements.1" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.8" successor="//@petriNetElements.2" multiplicity="1"/>
+  <petriNetElements xsi:type="petrinet:Arc" predecessor="//@petriNetElements.9" successor="//@petriNetElements.0" multiplicity="1"/>
+</petrinet:PetriNet>
