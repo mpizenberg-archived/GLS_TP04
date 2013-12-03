@@ -1,0 +1,28 @@
+digraph example {
+	t1 [shape=box];
+	t2 [shape=box];
+	t3 [shape=box];
+	t4 [shape=box];
+	t5 [shape=box];
+
+	p1 [label="1"]
+	p2 [label="2"]
+	p3 [label=" "]
+	p4 [label=" "]
+	p5 [label=" "]
+
+	p1 -> t1;
+	p2 -> t1 [label="2"] ;
+	p3 -> t4;
+	p3 -> t5;
+	p4 -> t2;
+	p5 -> t3;
+	p5 -> t4;
+	t1 -> p3;
+	t1 -> p4;
+	t1 -> p5;
+	t2 -> p2;
+	t3 -> p2;
+	t4 -> p3;
+	t5 -> p1;
+}
